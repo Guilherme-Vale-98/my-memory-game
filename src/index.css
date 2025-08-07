@@ -1,8 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(//db.onlinewebfonts.com/c/09d83b6de195e91065160e420bea0752?family=MYoungHei+PRC);
-@font-face {font-family: "MYoungHei PRC"; src: url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.eot"); src: url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.woff") format("woff"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.svg#MYoungHei PRC") format("svg"); }
+
+
+@font-face {
+    font-family: "MYoungHei PRC";
+    src: url('./fonts/MYoungHei-PRC.woff2') format('woff2'),
+         url('./fonts/MYoungHei-PRC.woff') format('woff'),
+         url('./fonts/MYoungHei-PRC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 body {
