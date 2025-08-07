@@ -5,9 +5,9 @@
 
 @font-face {
     font-family: "MYoungHei PRC";
-    src: url('./fonts/MYoungHei-PRC.woff2') format('woff2'),
-         url('./fonts/MYoungHei-PRC.woff') format('woff'),
-         url('./fonts/MYoungHei-PRC.ttf') format('truetype');
+    src: url('./fonts/MYoungHei PRC Xbold.woff2') format('woff2'),
+         url('./fonts/MYoungHei PRC Xbold.woff') format('woff'),
+         url('./fonts/MYoungHei PRC Xbold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
