@@ -1,0 +1,38 @@
+.card {
+  perspective: 500px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  caret-color: transparent;
+}
+.disabled{
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.content {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.turn .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: rgb(239,148,167);
+  background: linear-gradient(0deg, rgb(234, 153, 171) 0%, rgb(136, 202, 221)100%);
+  backface-visibility: hidden;
+}
+
+.front {
+  position: absolute;
+  top: 0px;
+  background: #dfccbc;
+  transform: rotateY(180deg);
+}

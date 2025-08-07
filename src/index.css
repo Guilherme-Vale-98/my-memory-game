@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(//db.onlinewebfonts.com/c/09d83b6de195e91065160e420bea0752?family=MYoungHei+PRC);
+@font-face {font-family: "MYoungHei PRC"; src: url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.eot"); src: url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.woff") format("woff"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/09d83b6de195e91065160e420bea0752.svg#MYoungHei PRC") format("svg"); }
+
+
+body {
+  margin: 0;
+  font-family: "MYoungHei PRC"; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  margin: 0;
+  background: radial-gradient(rgba(244,189,150,1) 30%, rgba(201,68,111,1) 100%); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
